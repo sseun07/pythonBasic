@@ -38,14 +38,21 @@ l.insert(3, 'alpha')
 print(l)
 l.pop(3)
 print(l)
-
+'''
 # 길이가 5인 list가 있을 때 그 list 는 자연수로만 이루어져있다. 그럴때 그 자연수들의 합을 구하라. 힌트=index
-l=[1,2,3,4,5]
-summ = 0
-for each in l:
+#l=[1,2,3,4,5]
+#summ = 0
+#for each in l:
     #for loop (위에꺼) ///// summ += each >> summ = summ + each
-    summ += each 
-    l.append(9)
-    print(summ)
+    #summ += each 
+    #l.append(9)
+    #print(summ)
+'''
 
 #HW: for loop 을 사용해서 list 안에 있는 원소들의 합을 구하시오. 
+l=[6,7,8,9,10,11,12]
+summ = 0
+for each in l:
+    summ += each 
+    print(summ) 
+    #=63
