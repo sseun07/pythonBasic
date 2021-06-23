@@ -51,8 +51,29 @@ print(l)
 
 #HW: for loop 을 사용해서 list 안에 있는 원소들의 합을 구하시오. 
 l=[6,7,8,9,10,11,12]
-summ = 0
+summ = 0 #to define what is summ
 for each in l:
     summ += each 
     print(summ) 
     #=63
+
+x=0
+while x<100: 
+    print(x)
+    x=x+1 
+'''
+*Loop: 여러번 반복
+while loop: 비교문 for loop - 무한반복 if를 사용한 비교문 for loop 이면
+if True 가 실행 가능=While True 도 실행 가능 
+**if want to stop "control C"***
+'''
+
+i=False
+if i: 
+    print('hi')
+'''
+if i==True: 
+    if True==True 
+if 문을 실행하려면 i=True 
+if False 면 실행 불가 // if True 여야만 가능
+'''
